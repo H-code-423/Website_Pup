@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI';
+  padding: 10px;
+  background: #E0FFFF;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: left;
+  background: white;
+}
+
+
+
+.header {
+  background-image: url(https://i.ibb.co/tQV6sVD/IMG-1841.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Move banner down below top nav bar */
+
+#banner, #pagebody {
+     position: relative;
+     top: 30px;
+     }
+
+/* Style the top navigation bar */
+
+.topnav {
+  overflow: hidden;
+  background-color: #40E0D0;
+  position: absolute;
+  top: 0;
+  width: 98%;
+}
+
+
+/* Style the topnav links */
+
+
+.topnav a {
+  float: right;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+/* Change color on hover */
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+/* Create two unequal columns that floats next to each other */
+
+.leftcolumn {
+  float: left;
+  width: 65%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 35%;
+  background-color:#E0FFFF;
+  padding-left: 20px;
+}
+
+
+
+/* Add a card effect for articles */
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #7FFFD4;
+  margin-top: 40px;
+}
+
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+p2 {
+  font-size: 20px;
+  }
+
+h2_2 {
+  font-size: 40px;
+  font-family: georgia;
+  font-style: italic;
+}
+
+h2 {
+  font-family: georgia;
+  }
+
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img scr="https://cooltext.com"><img src="https://images.cooltext.com/5447027.png" width="745" height="76" alt="Little Morkie Stories">
+</div>
+
+<div class="topnav">
+  <a href="#">About Author</a>
+  <a href="#">Puppy Post</a>
+  <a href="#">Coloring Pages</a>
+  <a href="#">Kid's Books</a>
+  <a href="#">Home Page</a>
+</div>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2_2>"Puppies are the best"</h2_2>
+      <img src="https://i.ibb.co/GCMjCZN/download.jpg" width="900" height="200" alt="My Pic">
+      <p>Puppies, oh, puppies,<br>
+        I love these little fluffies.<br>
+        They're cute, so cute,<br>
+        The size of a little boot.<br>
+        They cuddle, play in puddles<br>
+        And love to look for trouble!<br>
+        I want to squeeze them like a glove<br>
+        And give them all of my love!<br>
+        Puppies, oh puppies, <br>
+        I love these little fluffies! <br></p>
+    </div>
+  </div>
+
+<div class="rightcolumn">
+    <div class="card">
+      <h2>Words from Author:</h2>
+      <img src="https://i.ibb.co/ZYWjtJz/thumbnail-IMG-3433.jpg"  width="300" height="200" alt= "My Pic">
+      <p2><br>I was inspired to write this poem to remind my human mommy and daddy that im very cute and loveable! So whenever I make a mess on the carpet, I show them this poem so they wont get cranky, hehe!</p2>
+    </div>
+    <div class="card">
+      <h2>Connect with me</h2>
+      <p2><br>Instagram: littlemorkiestories</p2>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2></h2>
+</div>
+
+</body>
+</html>
