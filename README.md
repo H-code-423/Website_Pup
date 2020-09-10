@@ -1,2 +1,2 @@
 # website
-Working on a website for my dog named Kai using html
+Working on a website for my dog's book using html
